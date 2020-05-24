@@ -38,9 +38,9 @@ unsigned long previousMillis10 = 0;        // will store last time LED was updat
 
 
 // constants won't change :
-const long interval = 1000;           // interval at which to blink (milliseconds)
+const long interval = 500;           // interval at which to blink (milliseconds)
 
-const long interval10 = 300;           // interval at which to blink (milliseconds)
+const long interval10 = 1500;           // interval at which to blink (milliseconds)
 
 void setup() {
   // set the digital pin as output:
